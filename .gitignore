@@ -1,0 +1,17 @@
+# Allow storing encrypted secrets only (SOPS)
+*.[sS]ecret.*
+**/[sS]ecret.*
+!*.[eE]ncrypted.[sS]ecret.*
+!**/[eE]ncrypted.[sS]ecret.*
+
+~$*
+*~
+
+node_modules/
+
+__pycache__/
+*.pyc
+
+# OS files (OSX, Windows)
+.DS_Store
+Thumbs.db

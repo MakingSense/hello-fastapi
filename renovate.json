@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":combinePatchMinorReleases",
+    ":enableVulnerabilityAlerts",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":prConcurrentLimitNone",
+    ":prConcurrentLimit20"
+  ],
+  "packageRules": [
+    {
+      "packageRules": [
+        {
+          "matchDepTypes": ["devDependencies"],
+          "automerge": true
+        }
+      ]
+    },
+    {
+      "packagePatterns": ["node", "shellcheck"],
+      "automerge": true
+    }
+  ]
+}
