@@ -1,0 +1,31 @@
+# Our services and providers
+dockerhub
+dockerlint
+doppler
+dopplerdock
+dotnet
+eclint
+fastapi
+gitlint
+hadolint
+jenkins
+Jenkisfile
+jorisroovers
+koalaman
+openapi
+pydantic
+redoc
+shellcheck
+uvicorn
+
+# Technical terms
+automerge
+wwwroot
+
+# Code / parameters / Bash
+CONV
+MSYS
+MSYS
+nofile
+NZEC
+PATHCONV
