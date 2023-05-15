@@ -62,6 +62,10 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [ ] Recommended FastAPI project structure
 
+-   [ ] CORS ready
+
+-   [ ] JWT and authorization following Doppler standards
+
 ## How to use this project
 
 ### Prepare the files
