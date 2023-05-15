@@ -31,6 +31,6 @@ FROM code AS final
 EXPOSE 80
 ARG version=unknown
 # TODO: change wwwroot for FastAPI convention
-RUN mkdir -p /app/wwwroot/ && echo $version > /app/wwwroot/version.txt
+RUN mkdir -p ./static/ && echo $version > ./static/version.txt
 LABEL name="hello-fastapi" version="$version"
 CMD ["uvicorn", "app.main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "80"]
