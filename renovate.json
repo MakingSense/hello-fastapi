@@ -10,6 +10,9 @@
     ":prConcurrentLimitNone",
     ":prConcurrentLimit20"
   ],
+  "pip_requirements": {
+    "fileMatch": ["requirements.txt", "requirements-test.txt"]
+  },
   "packageRules": [
     {
       "packageRules": [
@@ -20,7 +23,7 @@
       ]
     },
     {
-      "packagePatterns": ["node", "shellcheck"],
+      "packagePatterns": ["node", "shellcheck", "pytest", "httpx"],
       "automerge": true
     }
   ]

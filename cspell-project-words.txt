@@ -8,12 +8,14 @@ eclint
 fastapi
 gitlint
 hadolint
+httpx
 jenkins
 Jenkisfile
 jorisroovers
 koalaman
 openapi
 pydantic
+pytest
 redoc
 shellcheck
 uvicorn
