@@ -15,6 +15,7 @@ jorisroovers
 koalaman
 openapi
 pydantic
+pylint
 pytest
 redoc
 shellcheck
