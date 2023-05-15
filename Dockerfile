@@ -25,6 +25,7 @@ RUN black --check . && pylint ./**/*.py && pytest
 
 FROM restore AS code
 COPY ./app ./app
+COPY ./static ./static
 
 # TODO: base it in python:3.11.3-bullseye and only relevant files from code
 FROM code AS final
