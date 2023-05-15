@@ -23,7 +23,7 @@
       ]
     },
     {
-      "packagePatterns": ["node", "shellcheck", "pytest", "httpx"],
+      "packagePatterns": ["node", "shellcheck", "pytest", "httpx", "black"],
       "automerge": true
     }
   ]

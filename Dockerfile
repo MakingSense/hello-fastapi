@@ -20,7 +20,7 @@ COPY ./requirements_test.txt ./requirements_test.txt
 RUN pip install --no-cache-dir --upgrade -r ./requirements_test.txt
 COPY ./app ./app
 COPY ./test ./test
-RUN pytest
+RUN black --check . && pytest
 
 FROM restore AS code
 COPY ./app ./app
