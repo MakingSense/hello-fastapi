@@ -29,3 +29,7 @@ LICENSE
 **/[sS]ecret.*
 !*.[eE]ncrypted.[sS]ecret.*
 !**/[eE]ncrypted.[sS]ecret.*
+
+**/__pycache__
+**/*.pyc
+.pytest_cache

@@ -1,3 +1,4 @@
 [eE]ncrypted.[sS]ecret.*
 .vscode/*
-.venv/*
+.venv
+.pytest_cache
