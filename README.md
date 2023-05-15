@@ -38,13 +38,13 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [x] Prettier validation for all supported files.
 
--   [ ] Editor Config validation using `eclint`.
+-   [x] Editor Config validation using `eclint`.
 
 -   [x] Launch and debug settings for VS Code ([.vscode](./.vscode)).
 
 -   [x] Custom color (FastAPI based #009485) for VS Code (using [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock&wt.mc_id=vscodepeacock-github-jopapa), see [settings.json](./.vscode/settings.json)).
 
--   [ ] Python Format (Black?), Linting (PyLint?) and Test validation
+-   [x] Python Format, Linting and Test validation
 
 -   [x] Generation of the docker images following Doppler convention and publish them to Docker Hub (See [build-n-publish.sh](./build-n-publish.sh)).
 
@@ -54,9 +54,9 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [x] Exposing only HTTP (not HTTPS) because that is the responsibility of our reverse proxy.
 
--   [ ] Expose Swagger (`/openapi.json` / `/docs` / `redoc`).
+-   [x] Expose Swagger (`/openapi.json` / `/docs` / `redoc`).
 
--   [ ] Including examples of self-hosting integration tests.
+-   [x] Including examples of self-hosting integration tests.
 
 -   [ ] Including examples of unit tests.
 

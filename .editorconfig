@@ -12,7 +12,7 @@ insert_final_newline = true
 indent_size = 2
 
 # Unset for binary and generated files
-[{**.png,.vscode/**,*.[sS]ecret.*,*.sln,yarn.lock,.venv/**,.pytest_cache/**,**/__pycache__/**,**/*.pyc}]
+[{**.png,.vscode/**,*.[sS]ecret.*,*.sln,yarn.lock,**/__init__.py}]
 charset = unset
 end_of_line = unset
 indent_style = unset
