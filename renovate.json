@@ -13,6 +13,7 @@
   "pip_requirements": {
     "fileMatch": ["requirements.txt", "requirements-test.txt"]
   },
+  "platformAutomerge": true,
   "packageRules": [
     {
       "packageRules": [
