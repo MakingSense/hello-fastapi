@@ -48,7 +48,7 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [x] Generation of the docker images following Doppler convention and publish them to Docker Hub (See [build-n-publish.sh](./build-n-publish.sh)).
 
--   [ ] Generation of `version.txt` file with the image version and expose as a static file.
+-   [x] Generation of `version.txt` file with the image version and expose as a static file.
 
 -   [x] [demo.http](./demo.http) to easily add manual tests for the exposed API with [VS Code REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
