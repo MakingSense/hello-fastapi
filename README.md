@@ -60,7 +60,7 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [ ] Including examples of unit tests.
 
--   [ ] Recommended FastAPI project structure
+-   [x] Recommended FastAPI project structure (see [documentation](https://fastapi.tiangolo.com/tutorial/bigger-applications/))
 
 -   [ ] CORS ready
 
