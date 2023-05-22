@@ -20,6 +20,7 @@ pytest
 redoc
 shellcheck
 uvicorn
+pylintrc
 
 # Technical terms
 automerge
