@@ -20,6 +20,7 @@ COPY ./requirements_test.txt ./requirements_test.txt
 RUN pip install --no-cache-dir --upgrade -r ./requirements_test.txt
 COPY ./.pylintrc ./
 COPY ./app ./app
+COPY ./static ./static
 COPY ./test ./test
 RUN black --check . && pylint ./**/*.py && pytest
 
