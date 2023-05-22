@@ -33,3 +33,7 @@ MSYS
 nofile
 NZEC
 PATHCONV
+
+# Rick & Morty
+morty
+plumbus

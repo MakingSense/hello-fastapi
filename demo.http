@@ -27,4 +27,25 @@ GET {{base}}/docs
 GET {{base}}/redoc
 
 ###
-GET {{base}}/items/5
+GET {{base}}/users/
+x-token: fake-super-secret-token
+
+###
+GET {{base}}/users/
+x-token: fake-super-secret-token
+
+###
+GET {{base}}/users/aaa
+x-token: fake-super-secret-token
+
+###
+GET {{base}}/users/me
+x-token: fake-super-secret-token
+
+###
+GET {{base}}/items/
+x-token: fake-super-secret-token
+
+###
+GET {{base}}/items/plumbus
+x-token: fake-super-secret-token
