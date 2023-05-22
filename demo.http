@@ -27,6 +27,11 @@ GET {{base}}/docs
 GET {{base}}/redoc
 
 ###
+POST {{base}}/admin/?token=jessica
+
+{}
+
+###
 GET {{base}}/users/
 x-token: fake-super-secret-token
 
