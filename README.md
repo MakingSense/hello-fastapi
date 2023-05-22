@@ -66,6 +66,8 @@ If you prefer to run these commands without docker, you can read [Dockerfile](./
 
 -   [ ] JWT and authorization following Doppler standards
 
+-   [ ] Access to DB
+
 ## How to use this project
 
 ### Prepare the files

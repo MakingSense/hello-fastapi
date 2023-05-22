@@ -9,7 +9,13 @@
 GET {{base}}/
 
 ###
-GET {{base}}/items/5
+GET {{base}}/version.txt
+
+###
+GET {{base}}/favicon.ico
+
+###
+GET {{base}}/robots.txt
 
 ###
 GET {{base}}/openapi.json
@@ -19,3 +25,6 @@ GET {{base}}/docs
 
 ###
 GET {{base}}/redoc
+
+###
+GET {{base}}/items/5
