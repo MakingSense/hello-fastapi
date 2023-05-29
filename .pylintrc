@@ -6,3 +6,6 @@ disable=missing-docstring
 
 [MISCELLANEOUS]
 notes=FIXME,XXX
+
+[MASTER]
+extension-pkg-whitelist=pydantic ; https://github.com/pydantic/pydantic/issues/1961#issuecomment-759522422
