@@ -10,7 +10,7 @@ WORKDIR /code
 COPY ./*.sh ./
 RUN shellcheck -e SC1091,SC1090 ./*.sh
 
-FROM python:3.11.4-bullseye AS restore
+FROM python:3.13.2-bullseye AS restore
 WORKDIR /code
 COPY ./requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir --upgrade -r ./requirements.txt
